@@ -156,4 +156,75 @@ header {
     justify-content: center;
 }
 /*video-section copleted*/
+.Current-target {
+            max-width: 1200px;
+            width: 100%;
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+        }
 
+        .Current-target h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .Current-target p {
+            font-size: 1em;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .card-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .card {
+            flex: 1;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+            display: grid;
+            gap: 10px;
+        }
+
+        .card img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+
+        .card h2 {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+
+        .card p {
+            font-size: 1em;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .card a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .card:nth-child(1) {
+            background-color: #ffeae9;
+        }
+
+        .card:nth-child(2) {
+            background-color: #e9f3ff;
+        }
+
+        .card:nth-child(3) {
+            background-color: #fff8e1;
+        }
+/*Current Target completed */
